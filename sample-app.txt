@@ -19,6 +19,7 @@ def delete_todo(todo_id):
     if 0 <= todo_id < len(todos):
         todos.pop(todo_id)
     return redirect('/')
+updates
 
 if __name__ == '__main__':
     app.run(debug=True)
